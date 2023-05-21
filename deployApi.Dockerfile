@@ -1,7 +1,7 @@
 #
 # deployApi.Dockerfile - the container used to host the API only
 #
-FROM ruby:3.1-bullseye
+FROM ruby:3.3-rc-slim
 
 # Setup dependencies
 ARG DEBIAN_FRONTEND=noninteractive
