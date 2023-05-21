@@ -11,7 +11,7 @@ ruby_versions = {
 ruby ruby_versions[(ENV['RAILS_ENV'] || 'development').to_sym]
 
 # The venerable, almighty Rails
-gem 'rails', '~>7.0'
+gem 'rails', '~> 7.0', '>= 7.0.4.3'
 
 group :development, :test do
   gem 'better_errors'
@@ -64,7 +64,7 @@ gem 'rubyzip'
 gem 'moss_ruby', '>= 1.1.4'
 
 # Latex
-gem 'rails-latex', '>2.3'
+gem 'rails-latex', '>= 2.3.4'
 
 # API
 gem 'grape'
