@@ -1,7 +1,7 @@
 #
 # deployAppSrc.Dockerfile - the container used for back end processing
 #
-FROM ruby:3.1-bullseye
+FROM ruby:3.3-rc-slim
 
 # Setup dependencies
 ARG DEBIAN_FRONTEND=noninteractive
