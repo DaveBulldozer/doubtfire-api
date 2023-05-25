@@ -1,4 +1,4 @@
-FROM ruby:3.1-bullseye
+FROM ruby:3.3-rc-slim
 
 # DEBIAN_FRONTEND=noninteractive is required to install tzdata in non interactive way
 ENV DEBIAN_FRONTEND noninteractive
