@@ -56,7 +56,7 @@ gem 'ruby-saml', '~> 1.13.0'
 
 # Student submission
 gem 'coderay'
-gem 'rmagick'
+gem 'rmagick', '>= 5.3.0'
 gem 'ruby-filemagic'
 gem 'rubyzip'
 
