@@ -30,7 +30,7 @@ end
 group :development, :test, :staging do
   # Generators for population
   gem 'factory_bot'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 6.3.0'
   gem 'faker'
   gem 'minitest'
   gem 'minitest-around'
