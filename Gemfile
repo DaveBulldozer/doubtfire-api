@@ -68,7 +68,7 @@ gem 'rails-latex', '>= 2.3.4'
 
 # API
 gem 'grape'
-gem 'grape-entity'
+gem 'grape-entity', '>= 1.0.1'
 gem 'grape-swagger'
 gem 'grape-swagger-rails'
 
