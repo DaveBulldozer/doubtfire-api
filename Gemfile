@@ -19,11 +19,11 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'listen'
   gem 'rails_best_practices'
-  gem 'rubocop'
+  gem 'rubocop', '>= 1.48.0'
   gem 'rubocop-faker'
-  gem 'rubocop-rails'
+  gem 'rubocop-rails', '>= 2.19.0'
   gem 'simplecov', require: false
-  gem 'solargraph', require: false
+  gem 'solargraph', '>= 0.49.0', require: false
   gem "sprockets-rails"
 end
 
@@ -34,7 +34,7 @@ group :development, :test, :staging do
   gem 'faker'
   gem 'minitest'
   gem 'minitest-around'
-  gem 'webmock'
+  gem 'webmock', '>= 3.19.0'
 end
 
 # Database
@@ -52,7 +52,7 @@ gem 'hirb'
 gem 'devise'
 gem 'devise_ldap_authenticatable'
 gem 'json-jwt'
-gem 'ruby-saml', '~> 1.13.0'
+gem 'ruby-saml', '~> 1.14.0'
 
 # Student submission
 gem 'coderay'
