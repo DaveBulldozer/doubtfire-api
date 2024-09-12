@@ -52,7 +52,7 @@ gem 'hirb'
 gem 'devise'
 gem 'devise_ldap_authenticatable'
 gem 'json-jwt'
-gem 'ruby-saml', '~> 1.13.0'
+gem 'ruby-saml', '~> 1.17.0'
 
 # Student submission
 gem 'coderay'
