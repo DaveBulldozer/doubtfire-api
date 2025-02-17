@@ -11,7 +11,7 @@ ruby_versions = {
 ruby ruby_versions[(ENV['RAILS_ENV'] || 'development').to_sym]
 
 # The venerable, almighty Rails
-gem 'rails', '~> 7.0', '>= 7.0.4.3'
+gem 'rails', '~> 7.2', '>= 7.2.0'
 
 group :development, :test do
   gem 'better_errors'
@@ -21,7 +21,7 @@ group :development, :test do
   gem 'rails_best_practices'
   gem 'rubocop'
   gem 'rubocop-faker'
-  gem 'rubocop-rails'
+  gem 'rubocop-rails', '>= 2.30.0'
   gem 'simplecov', require: false
   gem 'solargraph', require: false
   gem "sprockets-rails"
@@ -67,7 +67,7 @@ gem 'moss_ruby', '>= 1.1.4'
 gem 'rails-latex', '>= 2.3.4'
 
 # API
-gem 'grape'
+gem 'grape', '>= 2.1.0'
 gem 'grape-entity'
 gem 'grape-swagger'
 gem 'grape-swagger-rails'
