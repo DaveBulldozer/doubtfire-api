@@ -20,7 +20,7 @@ group :development, :test do
   gem 'listen'
   gem 'rails_best_practices'
   gem 'rubocop'
-  gem 'rubocop-faker'
+  gem 'rubocop-faker', '>= 1.3.0'
   gem 'rubocop-rails'
   gem 'simplecov', require: false
   gem 'solargraph', require: false
