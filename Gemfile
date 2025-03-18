@@ -52,7 +52,7 @@ gem 'hirb'
 gem 'devise'
 gem 'devise_ldap_authenticatable'
 gem 'json-jwt'
-gem 'ruby-saml', '~> 1.13.0'
+gem 'ruby-saml', '~> 1.18.0'
 
 # Student submission
 gem 'coderay'
@@ -67,7 +67,7 @@ gem 'moss_ruby', '>= 1.1.4'
 gem 'rails-latex', '>= 2.3.4'
 
 # API
-gem 'grape'
+gem 'grape', '>= 2.1.0'
 gem 'grape-entity'
 gem 'grape-swagger'
 gem 'grape-swagger-rails'
