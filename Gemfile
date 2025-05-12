@@ -67,7 +67,7 @@ gem 'moss_ruby', '>= 1.1.4'
 gem 'rails-latex', '>= 2.3.4'
 
 # API
-gem 'grape'
+gem 'grape', '>= 2.1.0'
 gem 'grape-entity'
 gem 'grape-swagger'
 gem 'grape-swagger-rails'
