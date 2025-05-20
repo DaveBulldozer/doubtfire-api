@@ -76,7 +76,7 @@ gem 'grape-swagger-rails'
 gem 'bunny-pub-sub', '0.5.2'
 gem 'ci_reporter'
 gem 'dotenv-rails'
-gem 'rack-cors', require: 'rack/cors'
+gem 'rack-cors', '>= 3.0.0', require: 'rack/cors'
 gem 'require_all', '>=1.3.3'
 
 # Excel support
