@@ -19,11 +19,11 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'listen'
   gem 'rails_best_practices'
-  gem 'rubocop'
-  gem 'rubocop-faker'
-  gem 'rubocop-rails'
+  gem 'rubocop', '>= 1.66.0'
+  gem 'rubocop-faker', '>= 1.2.0'
+  gem 'rubocop-rails', '>= 2.19.0'
   gem 'simplecov', require: false
-  gem 'solargraph', require: false
+  gem 'solargraph', '>= 0.49.0', require: false
   gem "sprockets-rails"
 end
 
