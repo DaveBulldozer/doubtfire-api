@@ -18,7 +18,7 @@ group :development, :test do
   gem 'byebug'
   gem 'database_cleaner'
   gem 'listen'
-  gem 'rails_best_practices'
+  gem 'rails_best_practices', '>= 1.23.3'
   gem 'rubocop'
   gem 'rubocop-faker'
   gem 'rubocop-rails'
